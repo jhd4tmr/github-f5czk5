@@ -1,5 +1,5 @@
 export default defineEventHandler(async (event) => {
   return {
-    test: 'a \n\n b \n\n c',
+    test: 'a \r\n\r\n b \r\n\r\n c',
   };
 });
